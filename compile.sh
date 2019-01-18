@@ -12,6 +12,6 @@ $GCC_TOOLCHAIN_PATH -O2 -ftree-loop-vectorize -fpredictive-commoning -D LOOP_ITE
 
 
 echo
-echo "Using LOOP_ITERATIONS 6 might fail:"
-$GCC_TOOLCHAIN_PATH -O2 -ftree-loop-vectorize -fpredictive-commoning -D LOOP_ITERATIONS=6 tree-ssa-alias-issue.c
+echo "Using LOOP_ITERATIONS 7 might fail:"
+$GCC_TOOLCHAIN_PATH -O2 -ftree-loop-vectorize -fpredictive-commoning -D LOOP_ITERATIONS=7 tree-ssa-alias-issue.c
 

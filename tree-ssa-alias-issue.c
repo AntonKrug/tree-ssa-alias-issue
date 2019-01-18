@@ -1,8 +1,8 @@
 #include <stdint.h>
 
-//When LOOP_ITERATIONS is defined to 6 or more it will cause internal compiler error
+//When LOOP_ITERATIONS is defined to 7 or more it will cause internal compiler error
 #ifndef LOOP_ITERATIONS
-#define LOOP_ITERATIONS 6
+#define LOOP_ITERATIONS 7
 #endif
 
 typedef union {
